@@ -311,10 +311,10 @@ class VisionApp:
         # --- Twilio Configuration (REPLACE WITH YOUR ACTUAL CREDENTIALS) ---
         # You can get these from your Twilio console after signing up for a free account
         # https://www.twilio.com/try-twilio
-        ACCOUNT_SID = 'AC557f8086eff037dcf66838d884c96b54' # Your Account SID
-        AUTH_TOKEN = '49fb59789186b1159da2502e09caca65' # Your Auth Token
-        TWILIO_PHONE_NUMBER = '+16812339135' # Your Twilio Phone Number (e.g., +1XXXXXXXXXX)
-        FAMILY_PHONE_NUMBER = '+918660182267' # The phone number of your family member (e.g., +1XXXXXXXXXX)
+        ACCOUNT_SID = '' # Your Account SID
+        AUTH_TOKEN = '' # Your Auth Token
+        TWILIO_PHONE_NUMBER = '' # Your Twilio Phone Number (e.g., +1XXXXXXXXXX)
+        FAMILY_PHONE_NUMBER = '' # The phone number of your family member (e.g., +1XXXXXXXXXX)
         # ------------------------------------------------------------------
 
         client = Client(ACCOUNT_SID, AUTH_TOKEN)
